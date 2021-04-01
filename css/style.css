@@ -1,0 +1,727 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 10px auto;
+    padding: 5px auto;
+
+}
+
+body {
+    background-color: #fff;
+    background-image:
+        linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+        linear-gradient(#eee .1em, transparent .1em);
+    background-size: 100% 1.2em;
+
+}
+
+/* .bodyProfesor {
+    background:
+        radial-gradient(black 3px, transparent 4px),
+        radial-gradient(black 3px, transparent 4px),
+        linear-gradient(#fff 4px, transparent 0),
+        linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
+        linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
+        #fff;
+    background-size: 109px 109px, 109px 109px, 100% 6px, 109px 109px, 109px 109px;
+    background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+    font-family: 'Roboto', sans-serif;
+} */
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* .navHeader{
+    margin: 5px auto;
+} */
+
+li {
+    list-style: none;
+}
+
+/*estimado*/
+img {
+    margin: 15px auto;
+    padding: 5px 5px;
+
+}
+
+.imagenLogo {
+    width: 250px;
+    height: 100px;
+}
+
+
+
+.explorar {
+    margin: 10px auto;
+    padding: 5px 5px;
+}
+
+.secciones {
+    margin: 10px auto;
+    padding: 5px 5px;
+}
+
+.recursos {
+    margin: 10px auto;
+    padding: 5px 5px;
+}
+
+header {
+    display: flex;
+    /*  align-items: center; */
+    margin: 5px auto;
+    padding: 5px 5px;
+}
+
+.hero {
+    max-width: 100%;
+    height: 500px;
+    background-image: url("../img/privlib8.jfif");
+    background-repeat: repeat;
+    background-size: contain;
+    margin: auto auto;
+}
+
+/*  .navHeader{
+      display: flex;
+     
+  } */
+/*  .navHeader ul li {
+      margin: 5px;
+  }
+   */
+.alinearJumb {
+    text-align: center;
+}
+
+.artExplorar {
+    text-align: center;
+}
+
+.accesoProfesorAlumno {
+    display: flex;
+    margin: 15px auto;
+    justify-content: space-around;
+}
+
+.artPiezaRec {
+    margin: 5px 5px;
+    padding: 5px;
+}
+
+button {
+    margin: 10px;
+    margin: 5px;
+    font-size: 25px;
+}
+
+.sugerenciaFooter {
+    margin: 10px auto;
+}
+
+.footer {
+    margin: 10px 10px;
+    padding: 5px 10px;
+}
+
+.socialesFooter nav ul li,
+.copyRightFooter nav li {
+    margin: 5px 5px;
+    padding: 2px 2px;
+}
+
+.copyRightFooter {
+    margin: auto 15px;
+    ;
+}
+
+.atento {
+    color: red;
+}
+
+.explorar {
+    display: flex;
+
+
+}
+
+.imagenSecciones {
+    width: 200px;
+}
+
+
+.cursoAño {
+    box-shadow: 0px 0px 1px;
+}
+
+.turnoMañana {
+    display: flex;
+
+}
+
+.turnoTarde {
+    display: flex;
+}
+
+.piezaRecurso {
+    width: 300px;
+}
+
+.apoyoAreaMateria {
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+.sugerenciaFooter {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    box-shadow: 0px 0px 1px;
+}
+
+form label,
+form input {
+    margin: 5px auto 0 auto;
+    padding: 5px;
+    box-shadow: 0px 0px 1px;
+
+}
+
+form textarea {
+    margin: 10px 10px;
+    box-shadow: 0px 0px 1px;
+}
+
+footer {
+    align-items: center;
+    grid-column: 1/6;
+    padding: 20px;
+    box-shadow: 0px 0px 1px;
+
+
+}
+
+
+.footer .ubicacion {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: auto 50px;
+
+}
+
+.footer .institucionalFooterUbicacion {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    box-shadow: 0px 0px 1px;
+    align-items: center;
+
+}
+
+.copyRightFooter {
+    text-align: center;
+    background: linen;
+    line-height: 10px;
+    box-shadow: 0px 0px 1px;
+
+}
+
+
+.sociales {
+    display: flex;
+    justify-content: center;
+    margin: 5px auto;
+    box-shadow: 0px 0px 1px;
+}
+
+.icono {
+    padding: 15px;
+
+}
+
+.mapa {
+    width: 350px;
+    box-shadow: 0px 0px 1px;
+}
+
+.ubicaciónEscuelaFooter {
+    margin: auto 5px;
+    padding: 5px 10px;
+    box-shadow: 0px 0px 1px;
+}
+
+
+
+.logoEscuela {
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 1px;
+
+}
+
+.logoFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.institucionalFooter nav {
+    display: flex;
+    flex-direction: column;
+}
+
+/* *****************************STYLE.CSS PROFESORES************************** */
+
+.profesor img {
+    border-radius: 50%;
+    max-width: 75%;
+}
+
+
+.imgProfcarrousel {
+    display: flex;
+}
+
+.imgProfcarrousel img {
+    border-radius: 50%;
+
+}
+
+.listaAlfabeticaProfesores {
+    margin: 10px 10px;
+    /* text-align: center; */
+}
+
+.alfabProfesor {
+    display: flex;
+    flex-direction: row;
+    margin: 10px auto;
+    font-size: 25px;
+    justify-content: space-around;
+}
+
+.alfabProfesor li {
+    margin: 5px;
+    padding: 3px;
+}
+
+.covid {
+    display: flex;
+    align-items: center;
+}
+
+.lineamientos {
+    display: flex;
+}
+
+.staffDocente {
+    display: flex;
+
+}
+
+/******** PROFESORES********************/
+
+.profesorHtml {
+    width: 95%;
+    margin: 5px auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 15px;
+}
+
+.headerProfesor {
+    grid-column: 1/6;
+    grid-row: 1/2;
+
+}
+
+.nav-headerProf {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+  
+    
+}
+
+
+.nav-headerProf .nav ul {
+    display: flex;
+
+}
+
+.nav-headerProf .nav ul li {
+    padding: 20px;
+}
+
+.socialesProfesor {
+    display: flex;
+    align-items: center;
+  
+  
+    /* justify-content: flex-end;
+    background: #fff; */
+
+
+}
+
+
+/*****************ICONOS REDES SOCIALES*********************/
+
+/* .btnNav{ */
+ /*  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    padding: 10px;
+    border-radius: 10%; */
+/* } */
+
+/* btnFacebook, .btnTwitter, .btnInstagram, .btnVimeo, .btnYoutube{ */
+   /*  padding: 4px;
+    border-radius: 10%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; */
+/* } */
+
+/* .sociales{
+    display: flex;
+    justify-content: flex-end;
+    background: #fff;
+   
+    
+} */
+/* .icono{
+    margin: 10px;
+    padding: 1px;
+
+} */
+
+/***********************************ICONOS REDES SOCILAES***********************/
+
+
+
+
+.efectoImgCarrousel {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+}
+
+.contenidoMain {
+    grid-column: 1/6;
+
+}
+
+
+
+
+.imgMiniatura {
+    width: 100px;
+    border-radius: 50%;
+    margin: 15 35px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.imgMiniatura:hover {
+    transform: scale(1.5, 1.5);
+    transition: all 1s ease;
+    margin-bottom: 50px;
+    box-shadow: 5px 5px 5px 1px #ccc;
+}
+
+
+.imgMiniaturaAbc {
+    width: 150px;
+    margin-right: 10px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.imgMiniaturaAbc:hover {
+    transform: scale(1.5, 1.5);
+    margin: 55px 55px;
+    box-shadow: 5px 5px 5px 1px #ccc;
+}
+
+.profPerfil {
+    text-align: center;
+}
+
+
+.abc {
+    grid-column: 1/4;
+    grid-row: 4/5;
+    background-image: url(../img/abc.png);
+    background-repeat: repeat;
+    padding: 20px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+.contenidosPriorizados {
+    grid-column: 1/4;
+    grid-row: 5/6;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+
+}
+
+.piedas {
+    grid-column: 4/6;
+    grid-row: 4/5;
+    padding: 20px;
+    text-align: center;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+.atrAcompanamiento {
+    grid-column: 4/6;
+    grid-row: 5/6;
+    padding: 20px;
+    text-align: center;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+
+.btnNav {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    padding: 4px;
+    border-radius: 10%;
+}
+
+.btnFacebook,
+.btnTwitter,
+.btnInstagram,
+.btnVimeo,
+.btnYoutube {
+    padding: 4px;
+    border-radius: 10%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.sociales {
+    display: flex;
+    justify-content: flex-end;
+    background: #fff;
+
+
+}
+
+.icono {
+    margin: 15px;
+    padding: 1px;
+
+}
+
+.btnABC {
+
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    position: relative;
+    top: 70px;
+    background-color: #1883ba;
+}
+
+.btnABC:hover {
+    color: #1883ba;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    animation-name: animacion;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+
+
+.btnContPr {
+    font-weight: 600;
+    font-size: 20px;
+    color: whitesmoke;
+    padding: 10px 20px;
+    border-radius: 6px;
+    background-color: #1883ba;
+    text-align: center;
+    margin: auto auto;
+    width: 50%;
+}
+
+
+.btnATR {
+    font-weight: 600;
+    font-size: 20px;
+    color: whitesmoke;
+    padding: 10px 20px;
+    border-radius: 6px;
+    background-color: #1883ba;
+
+}
+
+.btnATR:hover {
+    /* color: #1883ba; 
+    background-color: #ffffff; */
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    animation-name: animacion;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+
+}
+
+.btnContPr:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    animation-name: animacion;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+
+}
+
+@keyframes animacion {
+
+    0% {
+        color: whitesmoke;
+        background-color: #1883ba;
+
+    }
+
+    50% {
+        transform: scale(1.1);
+        color: black
+    }
+
+    100% {
+        color: #1883ba;
+        background-color: #ffffff;
+    }
+
+}
+
+/* **************************Fin BOTONOS****************** */
+
+.tituloPpal {
+    font-family: 'Nunito', sans-serif;
+    font-size: 50px;
+
+}
+
+.container .docentesCens {
+    background: #fff;
+    padding: 20px;
+    grid-column: 1/6;
+    grid-row: 2/4;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+
+}
+
+
+.container .asideInstit {
+    background: #fff;
+    padding: 20px;
+}
+
+.container main {
+    background: #fff;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+.footer {
+    grid-column: 1/6;
+    padding: 20px;
+}
+
+.profesorEspacioEncabezado {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+.profMateria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 20px
+}
+
+.profMateria:hover {
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.profesorEspacio {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 55px;
+    justify-content: space-around;
+
+
+}
+
+.titCarrouseProf {
+    text-align: center;
+    margin: 12px auto;
+    font-family: 'Nunito', sans-serif;
+    font-size: 50px;
+}
+
+.listMatProf {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+}
+
+.titNombProf {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+
+
+/**************** CURSOS Y AÑOS TIRNO MAÑANA Y TARDE***************************/
+
+.headerPrimerAñoMañana{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.logoAñoMateria{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
