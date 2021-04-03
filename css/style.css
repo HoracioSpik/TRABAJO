@@ -87,7 +87,8 @@ header {
     display: flex;
     /*  align-items: center; */
     margin: 5px auto;
-    padding: 5px 5px;
+    padding: 0 5px;
+    flex-direction: column;
 }
 
 .hero {
@@ -96,11 +97,40 @@ header {
     background-image: url("../img/privlib8.jfif");
     background-repeat: repeat;
     background-size: contain;
-   /*  margin: auto auto; */
+ 
 }
 
+
+ .containerDivisorHero2{
+    display: flex;
+    align-items: center;
+    text-align: center;
+   
+ }
+
+ .imgHero2{
+   width: 70%;
+   padding: 10px;
+
+ }
+
+ .textoHero2{
+  width: 30%;
+  padding: 10px;
+  font-style: italic;
+ }
+
+
+.container-heroNesc .imgHero2{
+    max-width: 100%;
+    height: 350px;
+    margin: 0;
+    padding: 0;
+}
+
+
 .jumbotron{
-margin: 15px auto 15px auto;
+    margin: 15px auto 15px auto;
 }
 /*  .navHeader{
       display: flex;
@@ -144,7 +174,12 @@ button {
     padding: 5px 10px;
 }
 
-.socialesFooter nav ul li,
+.socialesFooter nav ul li{
+    margin: 5px 5px;
+    padding: 2px 2px;
+}
+
+
 .copyRightFooter nav li {
     margin: 5px 5px;
     padding: 2px 2px;
@@ -152,12 +187,15 @@ button {
 
 .copyRightFooter {
     margin: auto 15px;
-    ;
+  
 }
 
-.atento {
-    color: red;
+.marginIcons{
+    margin: auto 10px;
 }
+/* .atento {
+    color: red;
+} */
 
 .explorar {
     display: flex;
@@ -255,10 +293,12 @@ footer {
     margin: 5px auto;
     box-shadow: 0px 0px 1px;
 }
-
+.socialesHeader{
+    display: flex;
+    justify-content:flex-end ;
+}
 .icono {
     padding: 15px;
-
 }
 
 .mapa {
@@ -518,16 +558,16 @@ footer {
 .btnInstagram,
 .btnVimeo,
 .btnYoutube {
-    padding: 4px;
+     padding: 4px;
     border-radius: 10%;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; */
 }
 
-.sociales {
+.socialesFooter {
     display: flex;
     justify-content: flex-end;
-    background: #fff;
-
+    /* background: #fff;
+ */
 
 }
 
