@@ -22,8 +22,8 @@
 
     <div class="container profesorHtml">
 
-        <header class="headerProfesor">
-            <div class="nav-headerProf">
+        <header class=" container headerProfesor">
+            <!-- <div class="nav-headerProf">
                 <div class="logo">
                     <img src="img/educacioncarcel_630_1140.jpg" alt="Logo del CENS N°451" class="logoEscuela">
                 </div>
@@ -36,24 +36,61 @@
                         <li><a href="#" class="btnNav"> Materias</a></li>
                     </ul>
                 </div>
-            </div>
+            </div> -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+                <div class="container navBarHead">
+                    <a class="navbar-brand" href="#"><img src="./img/educacioncarcel_630_1140.jpg" alt="Logo CEns 451. UP N°37"
+                            class="logoEscuela"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Nuestro C.E.N.S</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Secciones
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#turnoMañana">Turno Mañana</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#turnoTarde">Turno Tarde</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="profesores.html" tabindex="-1"
+                                    aria-disabled="true">Profesores</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
 
-
-             <div class="socialesProfesor">
+            <section class="socialesHeader">
                 <div class="btnFacebook icono">
-                    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square fa-3x"></i></a>
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a>
                 </div>
                 <div class="btnTwitter icono">
-                    <a href="https://twitter.com/?lang=es" target="_blank"> <i class="fab fa-twitter-square fa-3x "></i></a>
+                    <a href="https://twitter.com/?lang=es" target="_blank"> <i class="fab fa-twitter-square fa-2x "></i></a>
                 </div>
                 <div class="btnInstagram icono">
                     <a href="https://www.whatsapp.com/?lang=es" target="_blank"><i
-                            class="fab fa-whatsapp-square fa-3x"></i></a>
+                            class="fab fa-whatsapp-square fa-2x"></i></a>
                 </div>
                 <div class="btnVimeo icono">
-                    <a href="https://vimeo.com/es" target="_blank"><i class="fab fa-vimeo fa-3x"></i></a>
+                    <a href="https://vimeo.com/es" target="_blank"><i class="fab fa-vimeo fa-2x"></i></a>
                 </div>
-            </div> 
+            </section>     
         </header>
 
         <div class="docentesCens">
@@ -176,24 +213,24 @@
                     <img src="img/profesores/profesor6.jpg" alt="profesora" class="imgMiniatura">
                     <h2 class="titNombProf">Nombre profesor</h2>
                     <ul class=listMatProf>
-                        <a href="#">Espacio Uno</a>
+                        <a href="primerAñoMañana.html#materia1">Fisica I</a>
                     </ul>
                 </div>
                 <div class="profMateria">
                     <img src="img/profesores/profesor7.jfif" alt="profesora" class="imgMiniatura">
                     <h2 class="titNombProf">Nombre profesor</h2>
                     <ul class="listMatProf">
-                        <a href="#">Espacio Uno</a>
-                        <a href="#">Espacio Dos</a>
-                        <a href="#">Espacio Tres</a>
+                        <a href="primerAñoMañana.html#materia7">Prácticas de lenguaje I</a>
+                        <a href="segundoAñoMañana.html#materia7">Prácticas de lenguaje II</a>
+                        <a href="tercerAñoMañana.html#materia7">Prácticas de lenguaje III</a>
                     </ul>
                 </div>
                 <div class="profMateria">
                     <img src="img/profesores/profesor8.jpg" alt="profesora" class="imgMiniatura">
                     <h2 class="titNombProf">Nombre profesor</h2>
                     <ul class="listMatProf">
-                        <a href="#">Espacio Uno</a>
-                        <a href="#">Espacio Dos</a>
+                        <a href="primerAñoMañana.html#materia9">Informatica I</a>
+                        <a href="primerAñoMañana.html#materia11">Informatica II</a>
 
                     </ul>
                 </div>
@@ -201,16 +238,16 @@
                     <img src="img/profesores/profesor9.jfif" alt="profesora" class="imgMiniatura">
                     <h2 class="titNombProf">Nombre profesor</h2>
                     <ul class="listMatProf">
-                        <a href="#">Espacio Uno</a>
-                        <a href="#">Espacio Dos</a>
-                        <a href="#">Espacio Tres</a>
+                        <a href="primerAñoMañana.html#materia9">Informática I</a>
+                        <a href="segundoAñoMañana.html#materia11">Tecnología II</a>
+                        <a href="tercerAñoTarde.html#materia11">Taller de Tecnología</a>
                     </ul>
                 </div>
                 <div class="profMateria">
                     <img src="img/profesores/profesor10.jpg" alt="profesora" class="imgMiniatura">
                     <h2 class="titNombProf">Nombre profesor</h2>
                     <ul class="listMatProf">
-                        <a href="#">Espacio Uno</a>
+                        <a href="primerAñoMañana.html#materia1">Artes Visuales</a>
 
                     </ul>
                 </div>
@@ -218,9 +255,9 @@
                     <img src="img/profesores/profesor11.jfif" alt="profesora" class="imgMiniatura">
                     <h2 class="titNombProf">Nombre profesor</h2>
                     <ul class="listMatProf">
-                        <a href="#">Espacio Uno</a>
-                        <a href="#">Espacio Dos</a>
-                        <a href="#">Espacio Tres</a>
+                        <a href="primer|AñoTarde.html#materia2">Matemática I</a>
+                        <a href="segundoAñoTarde.html#materia2">Matemática II</a>
+                        <a href="tercerAñoTarde.html#materia2">Matemática III</a>
                     </ul>
                 </div>
 
@@ -228,16 +265,15 @@
                     <img src="img/profesores/profesor12.jpg" alt="profesora" class="imgMiniatura">
                     <h2 class="titNombProf">Nombre profesor</h2>
                     <ul class="listMatProf">
-                        <a href="#">Espacio Uno</a>
-                        <a href="#">Espacio Dos</a>
-
+                        <a href="tercerAñoTarde.html#materia3">Ciencias Naturales I</a>
+                        <a href="tercerAñomMañana.html#materia">Ciencias Naturales II</a>
                     </ul>
                 </div>
                 <div class="profMateria">
                     <img src="img/profesores/profesor13.webp" alt="profesora" class="imgMiniatura">
                     <h2 class="titNombProf">Nombre profesor</h2>
                     <ul class="listMatProf">
-                        <a href="#">Espacio Uno</a>
+                        <a href="tercerAñoTarde.html#materia4">Educación Fisica III</a>
 
                     </ul>
                 </div>
@@ -245,16 +281,15 @@
                     <img src="img/profesores/profesor14.webp" alt="profesora" class="imgMiniatura">
                     <h2 class="titNombProf">Nombre profesor</h2>
                     <ul class="listMatProf">
-                        <a href="#">Espacio Uno</a>
-
+                       <a href="tercerAñoTarde.html#materia5">Historia</a>
                     </ul>
                 </div>
                 <div class="profMateria">
                     <img src="img/profesores/profesor15.jfif" alt="profesora" class="imgMiniatura">
                     <h2 class="titNombProf">Nombre profesor</h2>
                     <ul class="listMatProf">
-                        <a href="#">Espacio Uno</a>
-                        <a href="#">Espacio Dos</a>
+                        <a href="tercerAñoTarde.html#materia5">Geografía I</a>
+                        <a href="tercerAñoMañana.html#materia5">Geografía II</a>
 
                     </ul>
                 </div>
@@ -262,8 +297,8 @@
                     <img src="img/profesores/profesor3.jfif" alt="profesora" class="imgMiniatura">
                     <h2 class="titNombProf">Nombre profesor</h2>
                     <ul class="listMatProf">
-                        <a href="#">Espacio Uno</a>
-                        <a href="#">Espacio Dos</a>
+                        <a href="segundoAñoTarde.html#materia9">Tecnolología II </a>
+                        <a href="segundoAñoTarde.html#materia11">Tecnolología Taller </a>
 
                     </ul>
                 </div>
@@ -271,17 +306,17 @@
                     <img src="img/profesores/profesor.png" alt="profesora" class="imgMiniatura">
                     <h2 class="titNombProf">Nombre profesor</h2>
                     <ul class="listMatProf">
-                        <a href="#">Espacio Uno</a>
-                        <a href="#">Espacio Dos</a>
-                        <a href="#">Espacio Tres</a>
+                        <a href="primerAñoTarde.html#materia3">Ciencias Naturales I</a>
+                        <a href="segundoAñoTarde.html#materia3">Ciencias Naturales II</a>
+                        <a href="tercerAñoTarde.html#materia3">Ciencias Naturales III</a>
                     </ul>
                 </div>
                 <div class="profMateria">
                     <img src="img/profesores/profesor9.jfif" alt="profesora" class="imgMiniatura">
                     <h2 class="titNombProf">Nombre profesor</h2>
                     <ul class="listMatProf">
-                        <a href="#">Espacio Uno</a>
-                        <a href="#">Espacio Dos</a>
+                        <a href="tercerAñoTarde.html#materia8">Música II</a>
+                        <a href="tercerAñoMañana.html#materia8">Música III</a>
 
                     </ul>
                 </div>
@@ -289,55 +324,45 @@
                     <img src="img/profesores/profesor15.jfif" alt="profesora" class="imgMiniatura">
                     <h2 class="titNombProf">Nombre profesor</h2>
                     <ul class="listMatProf">
-                        <a href="#">Espacio Uno</a>
-                        <a href="#">Espacio Dos</a>
-
+                        <a href="segundoAñoTarde.html#materia10">Inglés II</a>
+                        <a href="tercerAñoMañana.html#materia10">Inglés III</a>
                     </ul>
                 </div>
                 <div class="profMateria">
                     <img src="img/profesores/profesor10.jpg" alt="profesora" class="imgMiniatura">
                     <h2 class="titNombProf">Nombre profesor</h2>
                     <ul class="listMatProf">
-                        <a href="#">Espacio Uno</a>
-                        <a href="#">Espacio Dos</a>
-
+                        <a href="segundoAñoTarde.html#materia2">Física II</a>
+                        <a href="tercerAñoTarde.html#materia2">Matemática III</a>
                     </ul>
                 </div>
                 <div class="profMateria">
                     <img src="img/profesores/profesor.png" alt="profesora" class="imgMiniatura">
                     <h2 class="titNombProf">Nombre profesor</h2>
                     <ul class="listMatProf">
-                        <a href="#">Espacio Uno</a>
-                        <a href="#">Espacio Dos</a>
+                        <a href="tercerAñoTarde.html#materia7">Lenguaje y Comunicación I</a>
+                        <a href="primerAñoMañana.html#materia7">Lenguaje y Comunicación III</a>
 
                     </ul>
                 </div>
 
             </div>
 
-            <div class="sociales">
+            <section class="sociales">
                 <div class="btnFacebook icono">
-
-                    <a href="#">Facebook</a>
-
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a>
                 </div>
                 <div class="btnTwitter icono">
-                    <a href="#"> Twitter</a>
-
+                    <a href="https://twitter.com/?lang=es" target="_blank"> <i class="fab fa-twitter-square fa-2x "></i></a>
                 </div>
                 <div class="btnInstagram icono">
-                    <a href="#"> Instagram</a>
-
-
+                    <a href="https://www.whatsapp.com/?lang=es" target="_blank"><i
+                            class="fab fa-whatsapp-square fa-2x"></i></a>
                 </div>
                 <div class="btnVimeo icono">
-                    <a href="#">Vimeo</a>
-
+                    <a href="https://vimeo.com/es" target="_blank"><i class="fab fa-vimeo fa-2x"></i></a>
                 </div>
-                <div class="btnYoutube icono">
-                    <a href="#">youtube</a>
-                </div>
-
+            </section>
             </div>
         </main>
     </div>
@@ -382,11 +407,11 @@
                                         Secciones
                                     </a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li><a class="dropdown-item" href="#">Turno Mañana</a></li>
+                                        <li><a class="dropdown-item" href="index.html#turnoMañana">Turno Mañana</a></li>
                                         <li>
                                             <hr class="dropdown-divider">
                                         </li>
-                                        <li><a class="dropdown-item" href="#">Turno Tarde</a></li>
+                                        <li><a class="dropdown-item" href="index.html#turnoTarde">Turno Tarde</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">
@@ -402,11 +427,11 @@
                 <h3>Contáctenos</h3>
                 <nav>
                     <ul>
-                        <li><a href="https://http://abc.gob.ar/jubilaciones/contactos" target="_blank">Ubicación</a>
+                        <li><a href="https://http://abc.gob.ar/jubilaciones/contactos" target="_blank"><i class="fa fa-home fa-1x marginIcons" aria-hidden="true" ></i>Ubicación</a>
                         </li>
-                        <li><a href="https://outlook.live.com/owa/" target="_blank">Email</a></li>
-                        <li><a href="https://www.whatsapp.com/?lang=es" target="_blank"><i
-                                    class="fab fa-whatsapp-square fa-2x"></i>Whatsapp</a></li>
+                        <li><a href="https://outlook.live.com/owa/" target="_blank"><i class="fa fa-envelope-open fa-1x marginIcons"></i></i>Email</a></li>
+                        <li><a href="https://www.whatsapp.com/?lang=es" target="_blank"><i class="fab fa-whatsapp-square fa-1x marginIcons"></i>Whatsapp</a></li>
+
 
                     </ul>
                 </nav>
